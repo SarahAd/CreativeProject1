@@ -1,0 +1,446 @@
+
+
+html, body {
+	margin: 0;
+	border: 0;
+}
+form {
+	padding: 1vw;
+}
+.footer a {
+	text-decoration: none;
+	font-size: 2vw;
+	font-family: 'Julius Sans One', sans-serif;
+	color: black;
+	padding: 2vw 2vw 3vw 2vw;
+	text-align: center;
+	float: top;
+}
+.footer img {
+	box-shadow: none;
+	height: 2.5vw;
+	width:2.5vw;
+	padding: 4vw 2vw 0 2vw;
+}
+h6 {
+	font-family: 'Julius Sans One', sans-serif;
+	padding: 3vw;
+	font-size: 2vw;
+	line-height: 150%
+}
+.container {
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+	background-color: white;
+	margin: 2vw;
+}
+img {
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+input {
+  padding: 2vw;
+  width: 92vw;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+  margin: 1vw;
+  border: 0;
+  box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+textarea {
+  padding: 2vw;
+  width: 92.1vw;
+  height: 20vw;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+  margin: 1vw;
+  border: 0;
+  box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+button {
+  padding: 2vw;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.2vw;
+  width: 96.3vw;
+  color: white;
+  font-weight: lighter;
+  vertical-align: center;
+  background-color:  #e3af35;
+  margin: 1vw;
+  border: 0;
+  box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Julius Sans One', sans-serif;
+	align-content: center;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-color: black;
+}
+.navbar {
+	padding: 1.9vw;
+	margin: 1vw;
+	text-align: center;
+}
+.navbar a:hover {
+	background-color: #f8f8f8;
+}
+.paintings {
+	display: grid;
+	grid-gap: 2.5vw;
+	padding: 2.5vw;
+	grid-template-columns: 1fr 1fr;
+}
+.paintings img {
+	width: 46.2vw;
+}
+h4 {
+	font-family: 'Julius Sans One', cursive;
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+}
+h5 {
+	font-family: 'Meddon', cursive;
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 1%;
+}
+h3 {
+	font-family: 'Julius Sans One', cursive;
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 1%;
+	padding-top: 10vw;
+	margin: 0;
+}
+p {
+	font-family: 'Over the Rainbow', cursive;
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+	font-variant: 20px;
+}
+.essay p {
+	padding: 0vw 5vw 0vw 5vw;
+	margin: 0;
+}
+
+.page {
+	background-color: #f8f8f8;
+	background-position: all;
+}
+
+h1 {
+	font-family: 'Julius Sans One', cursive;
+	font-size: 5vw;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	font-weight: lighter;
+	padding-top: 20vw;
+	background-repeat: no-repeat;
+	color: black;
+	line-height: 100%;
+	text-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+.title {
+	background-image: url("./Images/whitecircle.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.7;
+	background-size: 36%;
+	margin: 0;
+	border: 0;
+}
+h2 {
+	font-family: 'Meddon', cursive;
+	font-size: 7vw;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	font-weight: lighter;
+	padding-bottom: 24vw;
+	color: black;
+	line-height: 100%;
+	text-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+
+main {
+	display: grid;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-image: url("./Images/plant.jpg");
+	background-size: 100%;
+	min-height: 100%;
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+
+@media screen and (min-width: 1050px) {
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		font-size: 1.7vw;
+		padding: 0;
+		margin: 3vw 0 3vw 0;
+	}
+	.navbar a {
+		padding: 3vw;
+	}
+	.photographs {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+	}
+	.photographs img {
+		width: 30vw;
+	}
+	#writings {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.paintings {
+		display: grid;
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+		grid-template-columns: 1fr 1fr;
+	}
+	.paintings img {
+		width: 46.2vw;
+	}
+	h1 {
+		font-size: 5vw;
+	}
+	h2 {
+		font-size: 7vw;
+	}
+	.title {
+		background-size: 35%;
+	}
+	h4 {
+		font-size: 2.5vw;
+	}
+	h5 {
+		font-size: 2.5vw;
+	}
+	h3 {
+		font-size: 4vw;
+	}
+	p {
+		font-size: 2vw;
+	}
+}
+
+@media screen and (min-width: 650px) and (max-width: 1050px) {
+	#writings {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.paintings {
+		display: grid;
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+		grid-template-columns: 1fr 1fr;
+	}
+	.navbar a {
+		padding: 1vw 5vw 1vw 5vw;
+	}
+	.navbar {
+		margin: 0;
+		padding: 1vw;
+		grid-gap: 2.5vw;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.paintings img {
+		width: 46.2vw;
+	}
+	h1 {
+		font-size: 6vw;
+	}
+	h2 {
+		font-size: 8vw;
+	}
+	.title {
+		background-size: 45%;
+	}
+	h4 {
+		font-size: 3.5vw;
+	}
+	h5 {
+		font-size: 3vw;
+	}
+	h3 {
+		font-size: 4.5vw;
+	}
+	p {
+		font-size: 2.8vw;
+	}
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr;
+		font-size: 3vw;
+		grid-gap: 1vw;
+	}
+	.photographs {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:	"itsaboy		portia"
+								"christmas1		christmas2"
+								"christmas3		christmas3"
+								"vonnie1		vonnie1"
+								"vonnie2		vonnie3"
+								"ellisisland	bowlinggreen"
+								"cathedral		vonnievertical";
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+	}
+	.photographs img {
+		width: 46vw;
+	}
+	.itsaboy {
+    	grid-area: itsaboy;
+  	}
+  	.portia {
+    	grid-area: portia;
+  	}
+  	.vonnievertical {
+  		grid-area: vonnievertical;
+  	}
+	.christmas1 {
+    	grid-area: christmas1;
+  	}
+  	.christmas2 {
+    	grid-area: christmas2;
+  	}
+  	.christmas3 {
+  		grid-area: christmas3;
+  	}
+  	.cathedral {
+    	grid-area: cathedral;
+  	}
+  	.bowlinggreen {
+    	grid-area: bowlinggreen;
+  	}
+  	.ellisisland {
+    	grid-area: ellisisland;
+  	}
+  	.vonnie1 {
+    	grid-area: vonnie1;
+  	}
+  	.vonnie2 {
+    	grid-area: vonnie2;
+  	}
+  	.vonnie3 {
+  		grid-area: vonnie3;
+  	}
+  	.vonnie1 img {
+		width: 94.6vw;
+	}
+  	.christmas3 img {
+		width: 94.6vw;
+	}
+	.cathedral img {
+		height: 69vw;
+	}
+	textarea {
+		height: 30vw;
+		font-size: 3.3vw;
+	}
+	input {
+		height: 8vw;
+		font-size: 3.3vw;
+	}
+	button {
+		height: 10vw;
+		font-size: 3.3vw;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.paintings {
+		display: grid;
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+		grid-template-columns: 1fr;
+	}
+	.paintings img {
+		width: 95vw;
+	}
+	h1 {
+		font-size: 8vw;
+	}
+	h2 {
+		font-size: 10vw;
+	}
+	.title {
+		background-size: 55%;
+	}
+	h4 {
+		font-size: 5vw;
+	}
+	h5 {
+		font-size: 4vw;
+	}
+	h3 {
+		font-size: 6vw;
+	}
+	p {
+		font-size: 3.5vw;
+	}
+	#writings {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.navbar a {
+		padding: 1vw 5vw 1vw 5vw;
+	}
+	.navbar {
+		margin: 0;
+		padding: 1vw;
+		grid-gap: 2.5vw;
+		display: grid;
+		font-size: 4vw;
+		grid-gap: 1vw;
+	}
+	.photographs {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 2.5vw;
+		padding: 2.5vw;
+	}
+	.photographs img {
+		width: 95vw;
+	}
+	textarea {
+		height: 40vw;
+		font-size: 4.5vw;
+	}
+	input {
+		height: 10vw;
+		font-size: 4.5vw;
+	}
+	button {
+		height: 15vw;
+		font-size: 4.5vw;
+	}
+	.footer a {
+		font-size: 4vw;
+	}
+	.footer img {
+		height: 4.5vw;
+		width: 4.5vw;
+	}
+}
+
